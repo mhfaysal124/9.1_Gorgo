@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Header Start*/
+header{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(194,188,194,0.36);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(194,188,194,0.36);
+    box-shadow: 0px 2px 3px 0px rgba(194,188,194,0.36);
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.h_content{
+    overflow: hidden;
+}
+.h_logo{
+    width: 15%;
+    float: left;
+    margin-right: 4%;
+}
+.h_logo img{
+    width: 100%;
+    padding-top: 3px;    
+    margin-left: -18px;
+}
+.menu{ 
+    width: 50%;
+    /* overflow: hidden; */
+    display: inline-block;
+}
+.menu ul{
+    overflow: hidden;
+}
+.menu ul li{
+    float: left;
+    list-style-type: none;
+    padding: 22px 4%;
+}
+.menu ul li:last-child{
+    padding-right: 0;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    transition: .3s;
+}
+.menu ul li a:hover{
+    color: red;
+}
+.h_button{
+    float: right;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+/*Header End*/
+/*Banner Start*/
+.b_content{    
+    margin: 169px 0 100px 0;  
+    overflow: hidden;
+}
+.b_text{
+    margin: 85px 0;
+    width: 45%;
+    margin-right: 5%;
+    float: left;
+    display: inline-block;
+}
+.b_text h1{
+    font-size: 49px;
+    margin-bottom: 33px;
+}
+.b_text p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+.b_img{
+    width: 50%;
+    float: right;
+}
+/*Banner End*/
+/*Demo Section Start*/
+.d_container{
+    width: 90%;
+    margin: 100px auto;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+.d_content{
+    width: 100%;
+    overflow: hidden;
+}
+.d_text{
+    margin: 0 auto;
+    width: 50%;
+}
+.d_text h1{
+    text-align: center;
+    font-size: 41px;
+    padding: 10px;
+}
+.d_text p{
+    text-align: center;
+    line-height: 23px;
+    margin-bottom: 40px;
+}
+.demo_item{
+    overflow: hidden;
+}
+.d_item1{
+    width: 23.5009999%;
+    margin-right: 2%;
+    float: left;
+    align-items: center;
+}
+.d_item1:last-child{
+    margin-right: 0;
+}
+.d_item1 img{
+    width: 98%;
+    margin: 2%;
+}
+.d_item1 img:hover{
+    -webkit-box-shadow: 0px 3px 20px -1px rgba(158,156,158,0.19);
+    -moz-box-shadow: 0px 3px 20px -1px rgba(158,156,158,0.19);
+    box-shadow: 0px 3px 20px -1px rgba(158,156,158,0.19);
+}
+.d_item1 p{
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: .2s;
+}
+.d_item1 p:hover{
+    font-size: large;
+    
+}
+/*Demo Section End*/
+/*Features Section Start*/
+.f_content{
+    width: 100%;
+    margin: 100px 0;
+    overflow: hidden;
+}
+.f_text{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.f_text h1{
+    font-size: 41px;
+    padding: 10px;
+}
+.f_text p{
+    text-transform: initial;
+    font-family: emoji;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.main_fetures{
+    width: 27.333%;
+    margin: 0 3% 3% 0;
+    float: left;
+    text-align: center;
+    background-color: #F5F5F5;
+    padding: 2%;
+    border-radius: 5px;
+}
+.last-child{
+    margin-right: 0;
+}
+.main_fetures:last-child{
+    margin-right: 0;
+}
+
+.main_fetures img{
+    width: 38px;
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+}
+.main_fetures h2{
+    font-size: 20px;
+    padding: 20px 0 10px 0;
+}
+.main_fetures p{
+    font-size: 16px;
+    font-family: serif;
+    padding-bottom: 20px;
+    line-height: 22px;
+}
+/*Features Section End*/
+/*Footer start*/
+footer{
+    background-color: #292640;
+}
+.footer_content{
+    margin: 75px auto;
+    width: 50%;
+    color: white;
+    overflow: hidden;
+}
+.footer_content h1{
+    text-align: center;
+    font-size: 49px;
+    padding: 25px 0;
+}
+.footer_button{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 14px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px;
+    text-transform: uppercase;
+    margin-left: 140px;
+    cursor: pointer;
+}
+.footer_content p{    
+    text-align: center;
+    padding: 22px 0 0;
+}
+.footer_content p strong{
+    cursor: pointer;
+}
+/*Footer End*/
